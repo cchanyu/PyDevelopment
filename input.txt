@@ -1,0 +1,16 @@
+Find all the combinations of a string in lowercase and uppercase. For example, string "ab" -> "ab", "Ab", "aB", "AB". So, you will have 2^n (n = number of chars in the string) output strings. The goal is for you to test each of these strings and see if it matches a hidden string.
+Parse an escaped string into csv format.
+What SQL columns should you index and how would you change the indexing in different lookup scenarios?
+Scripting question which covered being able to recognize edge cases.
+Question involving examination of subsets.
+Sort a list of numbers in which each number is at a distance k from its actual position
+Implement a simple regex parser which, given a string and a pattern, returns a boolean indicating whether the input matches the pattern. By simple, we mean that the regex can only contain special character: * (star), . (dot), + (plus). The star means what you'd expect, that there will be zero or more of previous character in that place in the pattern. The dot means any character for that position. The plus means one or more of previous character in that place in the pattern.
+Find all words from a dictionary that are x edit distance away.
+Store a set of sudden-death tournament results in a compact format (eg. a bit array) and a set of predicted match results (also in a bit array). Score the predictions, giving one point per correctly guessed match, without unpacking the bit array into a more convenient format (ie. you have to traverse the tree in-place).
+Handle interaction with elements in a web page.
+Implement a circular buffer using an array.
+Dynamic Programming Question
+Provide a set of positive integers (an array of integers). Each integer represents number of nights users request on Airbnb.com. If you are a host, you need to design and implement an algorithm to find out the maximum number of nights you can accommodate. The constraint is that you have to reserve at least one day between each request, so that you have time to clean the room.
+Example: 1) Input: [1, 2, 3] ===> output: 4, because you will pick 1 and 3 2) input: [5, 1, 2, 6] ===> output: 11, because you will pick 5 and 6 3) input: [5, 1, 2, 6, 20, 2] ===> output: 27, because you will pick 5, 2, 20
+
+Return the coins combination with the minimum number of coins. Time complexity O(MN), where M is the target value and N is the number of distinct coins. Space complexity O(M).
