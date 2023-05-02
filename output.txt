@@ -7,8 +7,8 @@ class Solution:
             else:
                 node_copy = Node(node.val, [])
                 dic[node] = node_copy
-                for nei in node.neighbors:
-                    if nei in dic:
+                for neighbor in node.neighbors:
+                    if neighbor in dic:
                         node_copy.neighbors.append(dic[nei])
                     else:   
                         node_copy.neighbors.append(dfs(nei))
